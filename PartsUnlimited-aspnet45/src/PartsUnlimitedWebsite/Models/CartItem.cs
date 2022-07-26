@@ -3,11 +3,12 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PartsUnlimited.Models
 {
+    // test02
     public class CartItem : ILineItem
     {
         [Key]
         public int CartItemId { get; set; }
-
+        
         [Required]
         public string CartId { get; set; }
         public int ProductId { get; set; }
