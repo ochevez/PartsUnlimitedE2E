@@ -5,7 +5,7 @@ namespace PartsUnlimited.Models
 {
     public class Category
     {
-        // otro cambio Oscar Chevez
+        // otro cambio Oscar Chevez v02
         public int CategoryId { get; set; }
 
         [Required]
