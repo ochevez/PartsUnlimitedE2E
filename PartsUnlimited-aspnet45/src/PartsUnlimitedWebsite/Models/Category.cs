@@ -5,6 +5,7 @@ namespace PartsUnlimited.Models
 {
     public class Category
     {
+        // otro cambio
         public int CategoryId { get; set; }
 
         [Required]
