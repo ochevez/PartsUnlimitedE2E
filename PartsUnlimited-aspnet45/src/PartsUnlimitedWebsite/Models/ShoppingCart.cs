@@ -8,6 +8,7 @@ namespace PartsUnlimited.Models
 {
     public partial class ShoppingCart
     {
+        // Actualizando clase ShoppingCart por OChevez
         private readonly IPartsUnlimitedContext _db;
         string ShoppingCartId { get; set; }
 
